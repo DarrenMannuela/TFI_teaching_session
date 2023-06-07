@@ -1,4 +1,7 @@
-var = 1== 1
+# is operator
+var = 1 == 1
+
+# Not operator
 var1 = 1!=1
 print(var)
 print(var1)

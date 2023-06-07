@@ -3,7 +3,7 @@ b = "Hello" # string data type
 c = "1" # this is 1 but in the string data type
 d = 1.0 # float data type
 e = 1.00 # double data type
-f = True
+f = True # boolean data type (True, False)
 
 print("\n This is the int data type: " + str(a) + f", a is: {type(a)}\n")
 print("\n This is the string data type: " + b + f", b is: {type(b)}\n")
