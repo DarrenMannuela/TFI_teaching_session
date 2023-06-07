@@ -1,3 +1,24 @@
+# Iterative for statements 
+# In this examples we iterate the command 10 times
+
+for i in range(10):
+    print(i)
+for i in range(10):
+    print ("Hello!")
+
+
+# Increasing the value var by 1 for 10 times 
+var = 0
+for i in range(10):
+    var += 1 
+print(var)
+
+# Iteratively adding more characters into a empty word
+var1 = ""
+for i in range(10):
+    var1 += " Z "
+print(var1) 
+
 #This is list and is initially  by using [] and data is seperated by ","
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
            
@@ -25,4 +46,4 @@ for number in range(len(numbers)):
 
 # Getting the numbers diretly within the list
 for number in numbers:
-     print(f"\nThe current index is: {number} and The current number is: {numbers[number]}\n")
+     print(f"\nThe current number is: {number}\n")
